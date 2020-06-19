@@ -24,9 +24,4 @@
 - Frontend: Vuejs / Material Design
 - Backend: Symfony
 
-## Main Points Covered
-
-- Improved layered archtecture
-- SOLID Concepts
-
 ![](Peek.gif)
