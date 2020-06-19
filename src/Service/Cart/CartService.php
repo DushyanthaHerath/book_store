@@ -36,6 +36,10 @@ class CartService implements CartInterface
         $this->registerObservers();
     }
 
+    /**
+     * @param Request $request
+     * @return array
+     */
     public function addToCart(Request $request) {
         // args
         $bookId = $request->get('book_id');
@@ -57,16 +61,25 @@ class CartService implements CartInterface
         return $this->cart->toArray();
     }
 
+    /**
+     * Dispatch to observers
+     */
     private function cartUpdated() {
         foreach ($this->observers as $observer) {
             $observer->handle($this->cart);
         }
     }
 
+    /**
+     * Register all observers
+     */
     private function registerObservers() {
         $this->observers[] = CartUpdatedObserver::instance($this->cart, $this->session);
     }
 
+    /**
+     * @return array
+     */
     public function clearCart() {
         $this->cart = new Cart();
         $this->session->invalidate();
@@ -74,10 +87,16 @@ class CartService implements CartInterface
         return $this->cart->toArray();
     }
 
+    /**
+     * @return array
+     */
     public function getCart() {
         return $this->cart->toArray();
     }
 
+    /**
+     * @param Request $request
+     */
     public function applyCoupon(Request $request) {
         $code = $request->get('coupon');
         $coupon = $this->promoRepo->getCoupon($code);

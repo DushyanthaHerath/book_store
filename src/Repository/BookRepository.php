@@ -15,11 +15,19 @@ use Doctrine\Persistence\ManagerRegistry;
  */
 class BookRepository extends ServiceEntityRepository implements BookRepoInterface
 {
+    /**
+     * BookRepository constructor.
+     * @param ManagerRegistry $registry
+     */
     public function __construct(ManagerRegistry $registry)
     {
         parent::__construct($registry, Book::class);
     }
 
+    /**
+     * @param $filters
+     * @return \Doctrine\ORM\Query
+     */
     public function listBooks($filters) {
         $books = $this->createQueryBuilder('b');
 
@@ -35,6 +43,11 @@ class BookRepository extends ServiceEntityRepository implements BookRepoInterfac
         return $books->orderBy('b.id', 'ASC')->getQuery();
     }
 
+    /**
+     * @param $bookId
+     * @return mixed
+     * @throws \Doctrine\ORM\NonUniqueResultException
+     */
     public function get($bookId) {
         return $this->createQueryBuilder('b')
             ->andWhere('b.id = :val')

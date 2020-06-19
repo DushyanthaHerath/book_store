@@ -13,6 +13,10 @@ use Doctrine\Persistence\ManagerRegistry;
  */
 class PromosRepository extends ServiceEntityRepository implements PromoRepoInterface
 {
+    /**
+     * PromosRepository constructor.
+     * @param ManagerRegistry $registry
+     */
     public function __construct(ManagerRegistry $registry)
     {
         parent::__construct($registry, Promos::class);

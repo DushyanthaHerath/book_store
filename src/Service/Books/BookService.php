@@ -14,12 +14,22 @@ class BookService implements BookInterface
     private $repository;
     private $paginator;
     const MAX_ENTRIES = 50;
+
+    /**
+     * BookService constructor.
+     * @param BookRepository $repository
+     * @param PaginatorInterface $paginator
+     */
     public function __construct(BookRepository $repository, PaginatorInterface $paginator)
     {
         $this->repository = $repository;
         $this->paginator = $paginator;
     }
 
+    /**
+     * @param Request $request
+     * @return \Knp\Component\Pager\Pagination\PaginationInterface
+     */
     public function listBooks(Request $request)
     {
         $page = $request->query->get('page', 1);
@@ -32,6 +42,10 @@ class BookService implements BookInterface
         );
     }
 
+    /**
+     * @param $request
+     * @return array
+     */
     public function createFilters($request) {
         return ['category_id' => $request->query->get('category_id', null)];
     }

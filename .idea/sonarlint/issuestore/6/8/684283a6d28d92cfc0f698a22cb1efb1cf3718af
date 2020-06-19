@@ -1,5 +1,5 @@
 
-j	php:S11178"IRename "$total" which has the same name as the field declared at line 18.(ф┼╔е¤    8ч─ы└м.
-k	php:S1117Г"IRename "$items" which has the same name as the field declared at line 12.(Э┘√Ц■    8Ь╙└║м.
-u	php:S3776E"TRefactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.(и╜▐Р√    8°°Ш│м.
+k	php:S1117Д"IRename "$items" which has the same name as the field declared at line 12.(Э┘√Ц■    8Ь╙└║м.
 }	php:S1488{"\Immediately return this expression instead of assigning it to the temporary variable "$arr".(То└Ї°    8─┴ш┤м.
+u	php:S3776E"TRefactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.(и╜▐Р√    8Т┬┴╨м.
+j	php:S11178"IRename "$total" which has the same name as the field declared at line 18.(ф┼╔е¤    8ч─ы└м.

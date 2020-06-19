@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25aa2e7c-af1f-43d3-a833-cc444697eee7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19c9add6ad4bd16c07db75c2fa62f8c2838c0e07" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19c9add6ad4bd16c07db75c2fa62f8c2838c0e07" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2fce6b70ddb70d660f4fcf7f2fbe6d049c17887e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2fce6b70ddb70d660f4fcf7f2fbe6d049c17887e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60c741162072a0d7043b58efd937397bf2650503" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60c741162072a0d7043b58efd937397bf2650503" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/14415700c918887d4328a910916a89da378dd0a7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/14415700c918887d4328a910916a89da378dd0a7" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/684283a6d28d92cfc0f698a22cb1efb1cf3718af" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/684283a6d28d92cfc0f698a22cb1efb1cf3718af" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/7249205a8c75420fce03b574d5d5bb95150f189c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/7249205a8c75420fce03b574d5d5bb95150f189c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observers/ObserverInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observers/ObserverInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observers/cart/CartUpdatedObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observers/cart/CartUpdatedObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/BookRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/BookRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/CategoryRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/CategoryRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/PromosRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/PromosRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/Books/BookService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/Books/BookService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/Books/Contracts/BookInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/Books/Contracts/BookInterface.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Service/Cart/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/Cart/Cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/Cart/CartService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/Cart/CartService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/Cart/Contracts/CartInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/Cart/Contracts/CartInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/Promo/Contracts/PromoInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/Promo/Contracts/PromoInterface.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Service/Cart/Cart.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="88" column="95" selection-start-line="88" selection-start-column="95" selection-end-line="88" selection-end-column="95" />
+            <state relative-caret-position="399">
+              <caret line="189" column="4" lean-forward="true" selection-start-line="189" selection-start-column="4" selection-end-line="189" selection-end-column="4" />
               <folding>
                 <element signature="e#38#76#0#PHP" expanded="true" />
               </folding>
@@ -53,31 +58,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DataFixtures/AppFixtures.php">
+        <entry file="file://$PROJECT_DIR$/src/Service/Books/BookService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+            <state relative-caret-position="264">
+              <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
               <folding>
-                <element signature="e#36#56#0#PHP" expanded="true" />
+                <element signature="e#39#73#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/services.yaml">
+        <entry file="file://$PROJECT_DIR$/src/Service/Books/Contracts/BookInterface.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="70" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/layouts/Navigation.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+            <state relative-caret-position="150">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -85,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Service/Cart/CartService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+            <state relative-caret-position="444">
+              <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
               <folding>
                 <element signature="e#38#81#0#PHP" expanded="true" />
               </folding>
@@ -95,45 +91,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/views/Cart.vue">
+        <entry file="file://$PROJECT_DIR$/src/Service/Cart/Item.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+            <state relative-caret-position="9">
+              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Cart/CartTest.php">
+        <entry file="file://$PROJECT_DIR$/src/Service/Promo/Contracts/PromoInterface.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-              <folding>
-                <element signature="e#36#56#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Repository/Contracts/PromoRepoInterface.php">
+        <entry file="file://$PROJECT_DIR$/src/Service/Cart/Contracts/CartInterface.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="309">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/bootstrap.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/layouts/App.vue">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Service/Cart/Contracts/PaymentStrategy.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -192,11 +180,9 @@
         <option value="$PROJECT_DIR$/src/Controller/API/BooksController.php" />
         <option value="$PROJECT_DIR$/src/Service/Books/Contracts/BooksInterface.php" />
         <option value="$PROJECT_DIR$/src/Service/Books/BooksService.php" />
-        <option value="$PROJECT_DIR$/src/Service/Books/Contracts/BookInterface.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/Traits/ResponseTrait.php" />
         <option value="$PROJECT_DIR$/src/Entity/Category.php" />
-        <option value="$PROJECT_DIR$/src/Service/Books/BookService.php" />
         <option value="$PROJECT_DIR$/src/Controller/API/BaseController.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
@@ -208,13 +194,9 @@
         <option value="$PROJECT_DIR$/src/Repository/Contracts/BookInterface.php" />
         <option value="$PROJECT_DIR$/src/Controller/API/BookController.php" />
         <option value="$PROJECT_DIR$/src/Entity/Promos.php" />
-        <option value="$PROJECT_DIR$/src/Repository/BookRepository.php" />
         <option value="$PROJECT_DIR$/src/Repository/Contracts/BookRepoInterface.php" />
         <option value="$PROJECT_DIR$/assets/js/app.js" />
         <option value="$PROJECT_DIR$/src/Service/Cart/Item.php" />
-        <option value="$PROJECT_DIR$/src/Observers/ObserverInterface.php" />
-        <option value="$PROJECT_DIR$/src/Observers/cart/CartUpdatedObserver.php" />
-        <option value="$PROJECT_DIR$/src/Service/Promo/Contracts/PromoInterface.php" />
         <option value="$PROJECT_DIR$/src/Service/Promo/PromoService.php" />
         <option value="$PROJECT_DIR$/assets/js/views/Home.vue" />
         <option value="$PROJECT_DIR$/assets/js/routes.js" />
@@ -223,10 +205,6 @@
         <option value="$PROJECT_DIR$/src/Service/Cart/Contracts/PaymentStrategy.php" />
         <option value="$PROJECT_DIR$/src/Repository/Contracts/PromoRepoInterface.php" />
         <option value="$PROJECT_DIR$/src/Controller/API/CartController.php" />
-        <option value="$PROJECT_DIR$/src/Service/Cart/Contracts/CartInterface.php" />
-        <option value="$PROJECT_DIR$/src/Repository/CategoryRepository.php" />
-        <option value="$PROJECT_DIR$/src/Repository/PromosRepository.php" />
-        <option value="$PROJECT_DIR$/src/Service/Cart/CartService.php" />
         <option value="$PROJECT_DIR$/assets/js/store/modules/cart.js" />
         <option value="$PROJECT_DIR$/assets/js/layouts/Navigation.vue" />
         <option value="$PROJECT_DIR$/assets/js/layouts/App.vue" />
@@ -234,7 +212,17 @@
         <option value="$PROJECT_DIR$/config/services.yaml" />
         <option value="$PROJECT_DIR$/tests/Cart/CartTest.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" />
+        <option value="$PROJECT_DIR$/src/Observers/cart/CartUpdatedObserver.php" />
+        <option value="$PROJECT_DIR$/src/Observers/ObserverInterface.php" />
+        <option value="$PROJECT_DIR$/src/Repository/BookRepository.php" />
+        <option value="$PROJECT_DIR$/src/Repository/CategoryRepository.php" />
+        <option value="$PROJECT_DIR$/src/Repository/PromosRepository.php" />
+        <option value="$PROJECT_DIR$/src/Service/Books/BookService.php" />
+        <option value="$PROJECT_DIR$/src/Service/Books/Contracts/BookInterface.php" />
         <option value="$PROJECT_DIR$/src/Service/Cart/Cart.php" />
+        <option value="$PROJECT_DIR$/src/Service/Cart/CartService.php" />
+        <option value="$PROJECT_DIR$/src/Service/Promo/Contracts/PromoInterface.php" />
+        <option value="$PROJECT_DIR$/src/Service/Cart/Contracts/CartInterface.php" />
       </list>
     </option>
   </component>
@@ -355,28 +343,18 @@
       <path value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle" />
     </include_path>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/book_store.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/php.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="298" />
-    <option name="y" value="158" />
-    <option name="width" value="1391" />
-    <option name="height" value="791" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1853" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -387,24 +365,39 @@
             <path>
               <item name="book_store" type="b2602c69:ProjectViewProjectNode" />
               <item name="book_store" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book_store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book_store" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book_store" type="b2602c69:ProjectViewProjectNode" />
               <item name="book_store" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DataFixtures" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book_store" type="b2602c69:ProjectViewProjectNode" />
               <item name="book_store" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="API" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book_store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book_store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Observers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book_store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book_store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Observers" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book_store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book_store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book_store" type="b2602c69:ProjectViewProjectNode" />
@@ -422,37 +415,49 @@
             <path>
               <item name="book_store" type="b2602c69:ProjectViewProjectNode" />
               <item name="book_store" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+              <item name="Cart" type="462c0819:PsiDirectoryNode" />
+              <item name="Contracts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book_store" type="b2602c69:ProjectViewProjectNode" />
               <item name="book_store" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Cart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+              <item name="Promo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book_store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book_store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+              <item name="Promo" type="462c0819:PsiDirectoryNode" />
+              <item name="Contracts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.php.lang.actions.generation.PhpGenerateFieldAccessorHandlerBase$MyMemberChooser.fluent.setters.last.selected" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/public/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -496,18 +501,19 @@
       <workItem from="1592420234848" duration="5118000" />
       <workItem from="1592458157281" duration="5827000" />
       <workItem from="1592466476174" duration="29528000" />
-      <workItem from="1592527239256" duration="1275000" />
+      <workItem from="1592527239256" duration="3769000" />
+      <workItem from="1592536514432" duration="789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115988000" />
+    <option name="totallyTimeSpent" value="119271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31045932" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22191478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -521,7 +527,7 @@
       <window_info anchor="bottom" id="SonarLint" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.44549266" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.44549266" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -615,16 +621,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Repository/Contracts/BookInterface.php" />
-    <entry file="file://$PROJECT_DIR$/src/Service/Books/BookService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="48" />
-          <folding>
-            <element signature="e#39#73#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/symfony/http-foundation/InputBag.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -639,20 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/Cart/Item.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/Promo/Contracts/PromoInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Service/Promo/PromoService.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -660,13 +642,6 @@
           <folding>
             <element signature="e#39#87#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Observers/ObserverInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -731,81 +706,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
-          <folding>
-            <element signature="e#36#101#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/API/CartController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="55" column="76" selection-start-line="55" selection-start-column="76" selection-end-line="55" selection-end-column="76" />
-          <folding>
-            <element signature="e#40#85#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/Cart/Contracts/CartInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/Cart/Contracts/PaymentStrategy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/CategoryRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="e#34#58#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/API/BookController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding>
-            <element signature="e#40#86#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Book.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1261">
           <caret line="113" column="26" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/PromosRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Observers/cart/CartUpdatedObserver.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="e#40#76#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -816,17 +720,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/Books/Contracts/BookInterface.php">
+    <entry file="file://$PROJECT_DIR$/src/DataFixtures/AppFixtures.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/BookRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="15" column="79" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
+        <state relative-caret-position="885">
+          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+          <folding>
+            <element signature="e#36#56#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -844,19 +744,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/Cart/CartService.php">
+    <entry file="file://$PROJECT_DIR$/assets/js/views/Cart.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          <folding>
-            <element signature="e#38#81#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="480">
+          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Cart/CartTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
+        <state relative-caret-position="780">
           <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
           <folding>
             <element signature="e#36#56#0#PHP" expanded="true" />
@@ -881,30 +778,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/views/Cart.vue">
+    <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+        <state relative-caret-position="210">
+          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+          <folding>
+            <element signature="e#36#101#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataFixtures/AppFixtures.php">
+    <entry file="file://$PROJECT_DIR$/src/Controller/API/CartController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+        <state relative-caret-position="556">
+          <caret line="55" column="76" selection-start-line="55" selection-start-column="76" selection-end-line="55" selection-end-column="76" />
           <folding>
-            <element signature="e#36#56#0#PHP" expanded="true" />
+            <element signature="e#40#85#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/API/BookController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="e#40#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Observers/cart/CartUpdatedObserver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding>
+            <element signature="e#40#76#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Observers/ObserverInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/BookRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/PromosRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/CategoryRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="e#34#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/Books/BookService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+          <folding>
+            <element signature="e#39#73#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/Books/Contracts/BookInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Service/Cart/Cart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="88" column="95" selection-start-line="88" selection-start-column="95" selection-end-line="88" selection-end-column="95" />
+        <state relative-caret-position="399">
+          <caret line="189" column="4" lean-forward="true" selection-start-line="189" selection-start-column="4" selection-end-line="189" selection-end-column="4" />
           <folding>
             <element signature="e#38#76#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/Cart/CartService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+          <folding>
+            <element signature="e#38#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/Cart/Item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/Promo/Contracts/PromoInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/Cart/Contracts/CartInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/Cart/Contracts/PaymentStrategy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

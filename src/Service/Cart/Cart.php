@@ -20,6 +20,9 @@ class Cart implements PaymentStrategy
     protected $subTotals;
     protected $appliedPromos;
 
+    /**
+     * Cart constructor.
+     */
     public function __construct()
     {
         $this->items = [];
@@ -35,6 +38,10 @@ class Cart implements PaymentStrategy
         return $this->items;
     }
 
+    /**
+     * @param Item $item
+     * @return $this
+     */
     public function addItem(Item $item) {
         $this->items[] = $item;
         return $this;
@@ -128,6 +135,9 @@ class Cart implements PaymentStrategy
         return $arr;
     }
 
+    /**
+     * @return array
+     */
     private function mapItems() {
         $items = [];
         $categories = [];
@@ -165,6 +175,10 @@ class Cart implements PaymentStrategy
         $this->promoService = $service;
     }
 
+    /**
+     * @param $promos
+     * @return $this
+     */
     public function addPromos($promos) {
         $this->promos = [];
         foreach ($promos as $promo) {
@@ -173,6 +187,10 @@ class Cart implements PaymentStrategy
         return $this;
     }
 
+    /**
+     * @param $coupon
+     * @return $this
+     */
     public function setCoupon($coupon) {
         $this->coupon = $coupon;
         return $this;
