@@ -2,65 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25aa2e7c-af1f-43d3-a833-cc444697eee7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/layouts/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/layouts/Navigation.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/plugins/vuetify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/store/modules/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/views/Cart.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/views/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/image_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/image_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/image_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/image_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/image_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/image_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/image_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/image_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/image_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/image_18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/image_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/image_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/image_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/image_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/image_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/image_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/image_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/image_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/image_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/image_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/API/BaseController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/API/BookController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/API/CartController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observers/ObserverInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observers/cart/CartUpdatedObserver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/Contracts/BookRepoInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/Contracts/PromoRepoInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/Books/BookService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/Books/Contracts/BookInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/Cart/Cart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/Cart/CartService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/Cart/Contracts/CartInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/Cart/Contracts/PaymentStrategy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/Cart/Item.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/Promo/Contracts/PromoInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/Promo/PromoService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Traits/ResponseTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/app.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Cart/CartTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/cache.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/cache.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes/annotations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19c9add6ad4bd16c07db75c2fa62f8c2838c0e07" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19c9add6ad4bd16c07db75c2fa62f8c2838c0e07" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2fce6b70ddb70d660f4fcf7f2fbe6d049c17887e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2fce6b70ddb70d660f4fcf7f2fbe6d049c17887e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60c741162072a0d7043b58efd937397bf2650503" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60c741162072a0d7043b58efd937397bf2650503" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/684283a6d28d92cfc0f698a22cb1efb1cf3718af" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/684283a6d28d92cfc0f698a22cb1efb1cf3718af" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/7249205a8c75420fce03b574d5d5bb95150f189c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/7249205a8c75420fce03b574d5d5bb95150f189c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/Cart/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/Cart/Cart.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,11 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Service/Cart/Cart.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="90" column="29" lean-forward="true" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+            <state relative-caret-position="99">
+              <caret line="88" column="95" selection-start-line="88" selection-start-column="95" selection-end-line="88" selection-end-column="95" />
               <folding>
                 <element signature="e#38#76#0#PHP" expanded="true" />
               </folding>
@@ -102,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataFixtures/AppFixtures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+            <state relative-caret-position="399">
+              <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
               <folding>
                 <element signature="e#36#56#0#PHP" expanded="true" />
               </folding>
@@ -117,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/services.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
+            <state relative-caret-position="390">
               <caret line="26" column="70" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
             </state>
           </provider>
@@ -126,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/layouts/Navigation.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
+            <state relative-caret-position="720">
               <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
             </state>
           </provider>
@@ -135,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Service/Cart/CartService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+            <state relative-caret-position="390">
+              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
               <folding>
                 <element signature="e#38#81#0#PHP" expanded="true" />
               </folding>
@@ -147,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/views/Cart.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="60">
               <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
             </state>
           </provider>
@@ -156,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Cart/CartTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+            <state relative-caret-position="735">
+              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
               <folding>
                 <element signature="e#36#56#0#PHP" expanded="true" />
               </folding>
@@ -283,8 +233,8 @@
         <option value="$PROJECT_DIR$/assets/js/views/Cart.vue" />
         <option value="$PROJECT_DIR$/config/services.yaml" />
         <option value="$PROJECT_DIR$/tests/Cart/CartTest.php" />
-        <option value="$PROJECT_DIR$/src/Service/Cart/Cart.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" />
+        <option value="$PROJECT_DIR$/src/Service/Cart/Cart.php" />
       </list>
     </option>
   </component>
@@ -427,7 +377,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -450,6 +399,12 @@
               <item name="book_store" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="DataFixtures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book_store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book_store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book_store" type="b2602c69:ProjectViewProjectNode" />
@@ -479,9 +434,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.php.lang.actions.generation.PhpGenerateFieldAccessorHandlerBase$MyMemberChooser.fluent.setters.last.selected" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
@@ -538,18 +495,19 @@
       <workItem from="1592419843096" duration="340000" />
       <workItem from="1592420234848" duration="5118000" />
       <workItem from="1592458157281" duration="5827000" />
-      <workItem from="1592466476174" duration="28556000" />
+      <workItem from="1592466476174" duration="29528000" />
+      <workItem from="1592527239256" duration="1275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113741000" />
+    <option name="totallyTimeSpent" value="115988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3065855" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31045932" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -563,7 +521,7 @@
       <window_info anchor="bottom" id="SonarLint" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.44549266" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.44549266" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -851,41 +809,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/layouts/Navigation.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/layouts/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/views/Cart.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/store/modules/cart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/services.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="26" column="70" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -903,17 +830,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/Contracts/PromoRepoInterface.php">
+    <entry file="file://$PROJECT_DIR$/config/services.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="390">
+          <caret line="26" column="70" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/layouts/Navigation.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Service/Cart/CartService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        <state relative-caret-position="390">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
           <folding>
             <element signature="e#38#81#0#PHP" expanded="true" />
           </folding>
@@ -922,8 +856,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Cart/CartTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        <state relative-caret-position="735">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+          <folding>
+            <element signature="e#36#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Contracts/PromoRepoInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/layouts/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/views/Cart.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataFixtures/AppFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
           <folding>
             <element signature="e#36#56#0#PHP" expanded="true" />
           </folding>
@@ -932,20 +900,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Service/Cart/Cart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="90" column="29" lean-forward="true" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+        <state relative-caret-position="99">
+          <caret line="88" column="95" selection-start-line="88" selection-start-column="95" selection-end-line="88" selection-end-column="95" />
           <folding>
             <element signature="e#38#76#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataFixtures/AppFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
-          <folding>
-            <element signature="e#36#56#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

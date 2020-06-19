@@ -1,3 +1,5 @@
 
-J	php:S1481c")Remove this unused "$arr" local variable.(’®Àôøÿÿÿÿ8÷’›¬.
-j	php:S1117:"IRename "$total" which has the same name as the field declared at line 15.(îµŸœÿÿÿÿÿ8–ÄÇš¬.
+j	php:S11178"IRename "$total" which has the same name as the field declared at line 18.(äÅÉ¥ıÿÿÿÿ8çÄëÀ¬.
+k	php:S1117ƒ"IRename "$items" which has the same name as the field declared at line 12.(Ùû–şÿÿÿÿ8œÓÀº¬.
+u	php:S3776E"TRefactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.(¨½Şûÿÿÿÿ8øø˜³¬.
+}	php:S1488{"\Immediately return this expression instead of assigning it to the temporary variable "$arr".(’®Àôøÿÿÿÿ8ÄÁè´¬.

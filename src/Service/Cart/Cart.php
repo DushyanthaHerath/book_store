@@ -80,13 +80,13 @@ class Cart implements PaymentStrategy
                 foreach ($categoryWise as $categoryId => $count) {
                     foreach ($this->promos as $promo) {
                         // Category specific price rules
-                        if ($promo->getCategoryId() == $categoryId && $promo->getItemCount() >= $count && !in_array($promo->getId(),$this->appliedPromos)) {
+                        if ($promo->getCategoryId() == $categoryId && $count >= $promo->getItemCount() && !in_array($promo->getId(),$this->appliedPromos)) {
                             $this->discount[$categoryId] = $this->discount[$categoryId] ?? 0;
                             $this->discount[$categoryId] += $promo->getDiscount();
                             $this->appliedPromos[] = $promo->getId();
                         }
                         // Item count specific price rules
-                        if (empty($promo->getCategoryId()) && $promo->getItemCount() >= $count && !in_array($promo->getId(),$this->appliedPromos)) {
+                        if (empty($promo->getCategoryId()) && $count >= $promo->getItemCount()  && !in_array($promo->getId(),$this->appliedPromos)) {
                             $this->totalDiscount = $this->totalDiscount ?? 0;
                             $this->totalDiscount += $promo->getDiscount();
                             $this->appliedPromos[] = $promo->getId();
@@ -121,6 +121,7 @@ class Cart implements PaymentStrategy
      */
     public function toArray() {
         $arr = [
+            'total' => $this->total,
             'grand_total' => $this->grandTotal,
             'items' => $this->mapItems()
         ];

@@ -38,7 +38,7 @@ class AppFixtures extends Fixture
         }
 
         $promo1 = (new Promos())
-            ->setCategoryId($categoryChildren->getId())
+            ->setCategoryId(1)
             ->setActive(1)
             ->setDiscount(10)
             ->setItemCount(5)
@@ -47,7 +47,7 @@ class AppFixtures extends Fixture
 
         $promo2 = (new Promos())
             ->setActive(1)
-            ->setDiscount(10)
+            ->setDiscount(5)
             ->setItemCount(10)
             ->setPriority(1);
         $manager->persist($promo2);
@@ -56,7 +56,7 @@ class AppFixtures extends Fixture
             ->setCode('xyz')
             ->setActive(1)
             ->setDiscount(10)
-            ->setItemCount(10)
+            ->setItemCount(0)
             ->setPriority(1);
         $manager->persist($promo3);
 

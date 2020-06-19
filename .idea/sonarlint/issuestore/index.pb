@@ -85,3 +85,19 @@ E
 .src/Repository/Contracts/BookRepoInterface.php,f/d/fd5a97f774855ab1a1a29666f566deb9c36e3449
 P
  src/Service/Cart/CartService.php,1/9/19c9add6ad4bd16c07db75c2fa62f8c2838c0e07
+S
+#src/Observers/ObserverInterface.php,6/3/635ef7bb456d3c53a2d22ef40aaa375b018f2ab0
+R
+"src/Service/Promo/PromoService.php,b/b/bb92673f15e7b100ad6be294c55da6c6c351ecc3
+^
+.src/Service/Promo/Contracts/PromoInterface.php,8/d/8df302ee1578e8a8a8557e00cf3dc99087a636c5
+Z
+*src/Observers/cart/CartUpdatedObserver.php,5/4/54e8cbf0f2544ce0699fecbd00c5f6dc82bd6e31
+P
+ assets/js/layouts/Navigation.vue,c/6/c6be427ffd34067df1b79e57fe84ed2b2a89c08f
+H
+assets/js/views/Cart.vue,1/4/14415700c918887d4328a910916a89da378dd0a7
+C
+tests/bootstrap.php,3/2/326979242ce2c18a934ad123c59abf3a9753ba46
+G
+tests/Cart/CartTest.php,4/a/4a2073211e89775ae6bc8798a3d28149cd2d961d
